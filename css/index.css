@@ -1,3 +1,147 @@
-h1 {
-    color: red;
+html, body{
+    height:100%;
+    scroll-behavior: smooth;
 }
+
+.start {
+    display: flex;
+    height: 100%;
+    
+
+}
+.menu {
+    background-color: #bd5d38;
+    color: white;
+    font-size: medium;
+    width: 300px;
+    height: 100%;
+    padding-top: 50px;
+    align-content: center;
+    position: fixed;
+}
+
+.menu .image {
+    
+}
+.menu img{
+    height: 200px;
+    width: 200px;
+    /* padding-left: 20px; */
+    /* border-radius: 50%; */
+    /* clip-path: circle(40.7% at 59% 44%); */
+
+
+
+}
+
+.box {
+    list-style-type: none;
+    text-align: center;
+    align-self: center;
+}
+
+.menu nav {
+    align-items: center;
+    display: inline;
+    
+}
+
+.menu ul {
+    padding: 0px;
+
+}
+.menu li {
+    
+    list-style-type: none;
+    text-transform: uppercase;
+    color: #bd5d38 !important;
+    padding: 20px;
+}
+
+.menu li :hover {
+    
+    list-style-type: none;
+    text-transform: uppercase;
+    color: white;
+    padding: 10px;
+    /* background-color: white; */
+    border-bottom: solid #f7855f 1px;
+    font-size: large;
+    transition: 2;
+    
+}
+.menu a {
+    color: white;
+}
+
+
+.content {
+    height: 100%;
+    width: 100%;
+    
+    
+}
+
+.content section {
+    height: 100%;
+    margin-left: 300px;
+    padding-top: 100px;
+    padding-left: 100px;
+}
+
+
+.content section .links  {
+    
+    text-decoration: none;
+    margin-top: 30px;
+    color: chocolate !important;
+    font-size: large;
+    
+}
+
+.content section .links  a {
+    
+    color: chocolate !important;
+    font-size: 20px;
+    text-transform: uppercase;
+    margin-right: 50px;
+    transition: 0.3s;
+    border-radius: 10px;
+    
+    
+}
+
+
+.content section .links :hover{
+    
+    text-decoration: none;
+    margin-top: 30px;
+    color: wheat !important;
+    background-color: #bd5d38;
+    padding: 10px;
+    transition: 0.3s;
+    
+}
+
+
+
+
+.content section .social_media {
+    
+    color: chocolate !important;
+    font-size: 20px;
+    text-transform: uppercase;
+    margin-right: 50px;
+    margin-top: 50px;
+    
+}
+
+.content section .social_media  a {
+    
+    color: chocolate !important;
+    font-size: 20px;
+    text-transform: uppercase;
+    margin-right: 50px;
+    
+}
+
