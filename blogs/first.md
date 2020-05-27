@@ -1,7 +1,7 @@
-# What is Machine Learning?
-
 > [About](https://hemanthyernagula.github.io/my_portfolio/)
+[Contact](https://hemanthyernagula.github.io/my_portfolio/#contact)
 
+# What is Machine Learning?
 
 
 ![pic](pics/git.svg =500x100)
