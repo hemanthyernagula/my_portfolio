@@ -1,4 +1,4 @@
-> [About](https://hemanthyernagula.github.io/my_portfolio/)
+[About](https://hemanthyernagula.github.io/my_portfolio/) |
 [Contact](https://hemanthyernagula.github.io/my_portfolio/#contact)
 
 # What is Machine Learning?
