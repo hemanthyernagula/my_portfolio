@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+</head>
+<body>
+    <div id="create_blog"  style="display: flex;">
+        <div class="editor">
+            <textarea name="" id="textarea_" cols="100" rows="10" style="border: none;"></textarea>
+        </div>
+    
+        <div id="preview1"></div>
+    </div>
+    
+    <input type="button" value="Preview" >
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/showdown/1.9.1/showdown.min.js"></script>
+
+    <script type="text/javascript">
+        
+            var cov_text = "";
+            const convt = new showdown.Converter();
+            showdown.setFlavor('github');
+            var raw_text = document.getElementById("textarea_");
+
+            raw_text.onkeypress = raw_text.onkeyup = function(){
+            cov_text = convt.makeHtml(raw_text.value);
+            document.getElementById("preview1").innerHTML = String(cov_text);
+
+
+
+
+
+            var script = document.createElement("script");
+            script.type = "text/javascript";
+       
+
+        }
+    </script>
+
+
+</body>
+
+
+
+</html>

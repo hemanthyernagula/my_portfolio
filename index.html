@@ -17,7 +17,7 @@
 <body>
     
     <div class="start">
-        <div class="menu">
+        <div class="menu" id="particles-js">
             <div class="box">
                 <div class="image">
                     <img src="pics/profile_pic_.svg" alt="">
@@ -52,10 +52,11 @@
         <div class="content">
             
             <section id="about">
-                <div class="text">
+                <div class="text" markdown="1">
                     <p style="font-size: large; color: gray;">Hi, This is</p>
                     <span style="font-weight: bolder; font-size: 60px; ">Hemanth Yernagula</span>
                     <p style="font-weight: 200; font-size: large; color: gray; padding-top: 20px;">Actively looking for Machine Learning Job</p>
+                    
                 </div>
                 <div class="links">
                     <a href="#contact">Contact Me</a> 
@@ -114,11 +115,43 @@
             <section id="contact">
                 <span style="font-weight: bolder; font-size: 60px; ">Contact</span>
             </section>
-    
+            <section id="blogs">
+                <a href="blogs/first.md">Blogs</a>
+            </section>
         </div>
-
-       
     </div>
+
+
+    <!-- Particles Start -->
+    
+    <!-- scripts -->
+    <script src="particles/particles.js"></script>
+    <script src="particles/js/app.js"></script>
+
+    <!-- stats.js -->
+    
+    <script>
+        var count_particles, stats, update;
+        stats = new Stats;
+        stats.setMode(0);
+        stats.domElement.style.position = 'absolute';
+        stats.domElement.style.left = '0px';
+        stats.domElement.style.top = '0px';
+        document.body.appendChild(stats.domElement);
+        count_particles = document.querySelector('.js-count-particles');
+        update = function() {
+          stats.begin();
+          stats.end();
+          if (window.pJSDom[0].pJS.particles && window.pJSDom[0].pJS.particles.array) {
+            count_particles.innerText = window.pJSDom[0].pJS.particles.array.length;
+          }
+          requestAnimationFrame(update);
+        };
+        requestAnimationFrame(update);
+      </script>
+      
+    
+    <!-- Particles End -->
 </body>
 </html>
 
