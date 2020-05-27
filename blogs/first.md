@@ -1,8 +1,8 @@
 # What is Machine Learning?
 
->What is Machine Learning and How Does It Work
-Lesson 1 of 10By Priyadharshini
-| Last updated on Apr 27, 20201196087
+> [About](https://hemanthyernagula.github.io/my_portfolio/)
+
+
 
 ![pic](pics/git.svg =500x100)
 
